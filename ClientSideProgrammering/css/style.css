@@ -1,0 +1,179 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+nav {
+  height: 90px;
+  border-bottom: dotted 1px #fff;
+  background-color: #333333;
+}
+
+@media screen and (max-width: 992px) {
+  
+  .navbar-collapse {
+    background-color: #333;
+    border: solid 1px #fff;
+    padding: 5px;
+  }
+  
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+  color: #fff;
+} 
+
+.form-control {
+  height: 22px;
+  border-radius: 0rem;
+}
+
+#navbarResponsive > ul > li:nth-child(1) > a {
+  color: #c61c2c;
+}
+
+.container {
+  background-color: #F8F8F8;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+
+
+.MiddleNav {
+  float: left;
+  margin-top: 34px;
+  height: auto;
+  border-bottom: dotted 1px #fff;
+  background-color: #333333;
+}
+
+.MiddleNavMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.MiddleNavMenu li {
+  float: left;
+}
+
+.MiddleNavMenu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.SearchLabel{
+  color: #fff;
+  margin-right: 4px;
+}
+
+.ButtomNav {
+  height: auto;
+  background-color: #333333;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  padding: 86px 58px;
+}
+
+img:hover {
+  opacity: 0.3;
+}
+
+.middle:hover {
+  opacity: 1;
+}
+
+.float-right fas fa-comment-alt {
+  color: #c61c2c;
+}
+
+.fa, .fas {
+  color: #fff;
+}
+
+.SocialIcons li {
+  list-style-type: none;
+}
+
+.SocialIcons li a {
+  display: inline;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+textarea {
+  width: 100%;
+}
+
+.HomeMovieRowTitle {
+  color: #c61c2c;
+}
+
+.badge-variable {
+  color: #fff;
+  background-color: #e8172c;
+}
+
+.btn-contact {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #FFF;
+  border: solid 1px grey;
+}
+
+.WhiteSpace {
+  height: 50px;
+  width: 100%;
+  background-color: #F8F8F8;
+}
+
+.DottedBorder {
+  width: 100%;
+  border: dotted 0.5px #000;
+}
+
+.RedSpan {
+  color: #c61c2c;
+}
+
+.RedSpanWithBorder {
+  color: #c61c2c;
+  border-bottom: solid 1px #c61c2c;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer {
+  height: 140px;
+  width: 100%;
+  background-color: #333333;
+}
